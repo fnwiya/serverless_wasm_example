@@ -9,10 +9,9 @@ cd hello_world_wasm
 
 ## Deploy
 
-1. Zip files
-
-```bash
-zip -r hello_world.zip hello_world
-```
-
-1. Upload to lambda
+- 1.Zip files
+  - ```bash
+    zip -r hello_world.zip target index.js
+    ```
+- 2.Upload to lambda
+- 3.Set handler `index.handler`

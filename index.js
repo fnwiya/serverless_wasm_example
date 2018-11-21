@@ -1,4 +1,4 @@
-const wasm = require("./wasm/hello_world_wasm");
+const wasm = require("./target/hello_world_wasm");
 
 exports.handler = async event => {
   return {
