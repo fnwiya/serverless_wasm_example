@@ -3,15 +3,14 @@
 ## Setup
 
 ```bash
-cd hello_world_wasm
-./build.sh
+npm run build
 ```
 
 ## Deploy
 
 - 1.Zip files
   - ```bash
-    zip -r hello_world.zip target index.js
+    npm run zip
     ```
 - 2.Upload to lambda
 - 3.Set handler `index.handler`

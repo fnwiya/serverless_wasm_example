@@ -3,5 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "author": "fnwiya <fnwiya@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "zip": "zip -r hello_world.zip target index.js",
+    "build": "cd hello_world_wasm && ./build.sh && cd .."
+  }
 }
